@@ -1,0 +1,38 @@
+body { 
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: grid;
+    background-color: #171B26;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    grid-auto-flow: column;
+    padding: 1rem;
+}
+
+.title {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    color: white;
+}
+
+#title-logo {
+    color: #d4a017;
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+nav .active {
+    background-color: #34495e;
+}
+
+.hero {
+    
+}
