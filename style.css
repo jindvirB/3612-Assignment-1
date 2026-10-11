@@ -108,6 +108,9 @@ header nav .active {
 }
 
 .featured-card img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #F3F4F7;
     padding: 2rem;
     padding-top: 4rem;
