@@ -3,6 +3,16 @@ body {
     font-family: sans-serif;
 }
 
+h1{
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
     display: grid;
     background-color: #171B26;
@@ -47,15 +57,10 @@ nav .active {
     justify-items: start;
 }
 
-h1 {
-    color: white;
-    font-size: 3rem;
-    font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .hero-contents h1 {
     margin: 0;
+    color: white;
+    font-size: 3rem;
 }
 
 .hero-contents p {
@@ -67,7 +72,77 @@ h1 {
 .hero-contents a {
     display: block;
     background-color: #d4a017;
+    color: black;
     padding: 1rem;
     border-radius: 0.25rem;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.featured {
+    background-color: #F3F4F7;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.featured-cards {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.featured-card {
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-top: 3.5px solid #51857C;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+}
+
+.featured-cards .active {
+    border: 1px solid black;
+    border-top: 3.5px solid #d4a017
+}
+
+.featured-card img {
+    background-color: #F3F4F7;
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.featured-card-text {
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+.featured-product {
+    font-weight: bold;
+}
+
+.featured-price {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.featured-card a {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.why {
+    margin: 2rem;
+    margin-right: 30rem;
+}
+
+.why p {
+    color: gray;
 }
