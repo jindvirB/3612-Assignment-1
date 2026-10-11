@@ -150,6 +150,138 @@ header nav .active {
     color: gray;
 }
 
+.path {
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-top: 0;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.product-top {
+    background-color: #F3F4F7;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.medium-image {
+    grid-column: 1;
+    grid-row: 1;
+    display: block;
+    width: 100%;
+}
+
+.purchase {
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.purchase h2 {
+    padding-right: 15rem;
+}
+
+.total-review {
+    color: #D6A419;
+    font-size: 0.75rem;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.purchase p.description {
+    color: gray;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+[name="size"] {
+    padding: 0.5rem;
+    background-color: #F3F4F7;
+    border: 1px solid lightgray;
+}
+
+[name="color"] {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+.white {
+    background-color: #ECE6D8;
+}
+
+.black {
+    background-color: #3A3D45;
+}
+
+.blue {
+    background-color: #1F2B46;
+}
+
+.orange {
+    background-color: #CA8D61;
+}
+
+[type="text"] {
+    display: block;
+}
+
+[type="submit"] {
+    margin-top: 1rem;
+    display: inline;
+    background-color: #d4a017;
+    border: none;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+form span {
+    background-color: F3F4F7;
+    border: 1px solid black;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.thumb-images {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.thumb-images img {
+    width: 100%;
+}
+
+.product-bottom {
+    background-color: #F3F4F7;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
 footer{
     background-color: #171B26;
     padding: 1rem;
