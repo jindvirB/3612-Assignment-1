@@ -32,14 +32,14 @@ header {
     color: #d4a017;
 }
 
-nav a {
+header nav a {
     color: white;
     padding: 1rem;
     border-radius: 0.25rem;
     text-decoration: none;
 }
 
-nav .active {
+header nav .active {
     background-color: #34495e;
 }
 
@@ -145,4 +145,32 @@ nav .active {
 
 .why p {
     color: gray;
+}
+
+footer{
+    background-color: #171B26;
+    padding: 1rem;
+}
+
+footer nav {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer a {
+    display: block;
+    font-size: 0.8rem;
+    color: gray;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+footer p {
+    margin-top: 5rem;
+    font-size: 0.75rem;
+    color: darkgray;
 }
